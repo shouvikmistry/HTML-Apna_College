@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <Header><h2>Registration form</h2></Header>
+    <hr>
+    <main>
+        <form action="/action.php">
+            <input type="text" placeholder="Name" name="Name" id="name">
+            <br>
+
+            <input type="password" placeholder="password" id="pass">
+            <br>
+
+            <h3>Select Your Class</h3>
+            <label for="id1">
+                <input type="radio" name="class" id="id1" value="Class X">Class X</label>
+            <label for="id2">
+                <input type="radio" name="class" id="id2" value="Class XII">Class XII
+            </label>
+            <br>
+            <h3>Select your Subject</h3>
+        <label for="id3">
+            <input type="checkbox" name="sub" id="id3">Physics
+        </label>
+        <label for="id4">
+            <input type="checkbox" name="sub" id="id4">Biology
+        </label>
+        <label for="id5">
+            <input type="checkbox" name="sub" id="id5">Math
+        </label>
+        <br>
+        <textarea name="feedback" id="101" cols="14" rows="6"></textarea>
+        <br>
+        <select name="city" id="city">
+            <option value="Kolkata">Kolkata</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+    </main>
+    <hr>
+    <footer></footer>
+</body>
+</html>
