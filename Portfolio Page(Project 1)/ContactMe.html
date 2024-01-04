@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <Header><h2>Feedback Form</h2></Header>
+    <hr>
+    <main>
+        <form action="/action.php">
+            <h4>Enter Your Name :</h4> <input type="text" placeholder="Name" name="Name" id="name">
+            <br>
+            <h4>Enter Your  College Name :</h4> <input type="text" placeholder="College Name" name="College" id="clgname">
+            <br>
+            <h4>Enter Your Email :</h4> <input type="email" placeholder="Email Adress" name="College" id="clgname">
+            <br>
+            <h4>Select Your Class</h4>
+            <label for="id1">
+                <input type="radio" name="class" id="id1" value="Class X">Class X</label>
+            <label for="id2">
+                <input type="radio" name="class" id="id2" value="Class XII">Class XII
+            </label>
+            <label for="id3">
+                <input type="radio" name="class" id="id3" value="1st">1 <sup>st</sup> Year
+            </label>
+            <label for="id4">
+                <input type="radio" name="class" id="id4" value="2nd"> 2 <sup>nd</sup> Year
+            </label>
+            <label for="id5">
+                <input type="radio" name="class" id="id5" value="3rd">3 <sup>rd</sup> Year
+            </label>
+            <label for="id6">
+                <input type="radio" name="class" id="id6" value="4th">4 <sup>th</sup> Year
+            </label>
+            <br>
+            <h4>Select Your City : <select name="city" id="city">
+                <option value="Kolkata">Kolkata</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bangalore">Bangalore</option>
+            </select></h4>
+            <br>
+        <textarea name="feedback" id="101" cols="14" rows="6">Enter Your Quiries</textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+    </main>
+    <hr>
+    <footer><a href="/Portfolio Page(Project 1)/index.html">Back to Home Page</a></footer>
+</body>
+</html>
